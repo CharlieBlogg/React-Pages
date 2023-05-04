@@ -1,5 +1,5 @@
 {
-  "homepage": "http://machadop1407.github.io/chartjs-react-tutorial",
+  "homepage": "http://charlieblogg.github.io/React-Pages",
   "name": "chartjs-tut",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +17,8 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+#    "deploy": "gh-pages -d build",
+    "deploy": "React-Pages -d build",	
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
