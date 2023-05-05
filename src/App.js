@@ -27,7 +27,9 @@ function App() {
 
   // IF YOU SEE THIS COMMENT: I HAVE GOOD EYESIGHT
 
-  let val = Math.random();
+  const val = () => {
+    return Math.random();
+  }
 
   return (
     <div className="App">
