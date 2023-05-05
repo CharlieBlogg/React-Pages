@@ -27,10 +27,15 @@ function App() {
 
   // IF YOU SEE THIS COMMENT: I HAVE GOOD EYESIGHT
 
+  let val = Math.random();
+
   return (
     <div className="App">
       <div style={{ width: 700 }}>
         <BarChart chartData={userData} />
+        <hr />
+        <p>val</p>
+        <hr />
       </div>
       <div style={{ width: 700 }}>
         <LineChart chartData={userData} />
