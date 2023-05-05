@@ -28,6 +28,7 @@ function App() {
   // IF YOU SEE THIS COMMENT: I HAVE GOOD EYESIGHT
 
   const val = () => {
+    console.log("In val")
     return Math.random();
   }
 
@@ -36,7 +37,7 @@ function App() {
       <div style={{ width: 700 }}>
         <BarChart chartData={userData} />
         <hr />
-        <p>{val}</p>
+        <p>{val()}</p>
         <hr />
       </div>
       <div style={{ width: 700 }}>
