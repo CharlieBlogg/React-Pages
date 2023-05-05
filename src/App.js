@@ -34,7 +34,7 @@ function App() {
       <div style={{ width: 700 }}>
         <BarChart chartData={userData} />
         <hr />
-        <p>val</p>
+        <p>{val}</p>
         <hr />
       </div>
       <div style={{ width: 700 }}>
